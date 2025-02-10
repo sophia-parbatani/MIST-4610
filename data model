@@ -1,0 +1,70 @@
+CREATE TABLE Publisher (
+    publisher_id INT PRIMARY KEY,
+    publisher_name VARCHAR(100),
+    contact_email VARCHAR(100),
+    phone_number VARCHAR(20),
+    country VARCHAR(50)
+);
+
+CREATE TABLE Book (
+    book_id INT PRIMARY KEY,
+    title VARCHAR(150),
+    author VARCHAR(100),
+    description TEXT,
+    price DECIMAL(6,2),
+    publication_date DATE,
+    genre_id INT,
+    publisher_id INT,
+    FOREIGN KEY (genre_id) REFERENCES Genre(genre_id),
+    FOREIGN KEY (publisher_id) REFERENCES Publisher(publisher_id)
+);
+
+CREATE TABLE Genre (
+    genre_id INT PRIMARY KEY,
+    genre_name VARCHAR(50)
+);
+
+CREATE TABLE Inventory (
+    inventory_id INT PRIMARY KEY,
+    quantity_in_stock INT,
+    restock_quantity INT,
+    restock_date DATE,
+    book_id INT,
+    FOREIGN KEY (book_id) REFERENCES Book(book_id)
+);
+
+CREATE TABLE Sales_Transaction (
+    sales_trans_id INT PRIMARY KEY,
+    total_price DECIMAL(6,2),
+    transaction_date DATE,
+    payment_type VARCHAR(50),
+    employee_id INT,
+    customer_id INT,
+    FOREIGN KEY (employee_id) REFERENCES Employee(employee_id),
+    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
+);
+
+CREATE TABLE Sales_Transaction_Details (
+    trans_detail_id INT PRIMARY KEY,
+    quantity_sold INT,
+    unit_price DECIMAL(6,2),
+    sales_trans_id INT,
+    book_id INT,
+    FOREIGN KEY (sales_trans_id) REFERENCES Sales_Transaction(sales_trans_id),
+    FOREIGN KEY (book_id) REFERENCES Book(book_id)
+);
+
+CREATE TABLE Employee (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100)
+);
+
+CREATE TABLE Customer (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    phone_number VARCHAR(20)
+);
