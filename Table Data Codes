@@ -1,0 +1,63 @@
+-- Insert data into publisher\INSERT INTO publisher (publisher_id, publisher_name, contact_email, phone_number, country) VALUES
+(1, 'Penguin Random House', 'contact@prh.com', '123-456-7890', 'USA'),
+(2, 'HarperCollins', 'info@harpercollins.com', '234-567-8901', 'USA'),
+(3, 'Simon & Schuster', 'support@simonandschuster.com', '345-678-9012', 'USA'),
+(4, 'Macmillan', 'help@macmillan.com', '456-789-0123', 'UK'),
+(5, 'Hachette Book Group', 'service@hachette.com', '567-890-1234', 'France'),
+(6, 'Scholastic', 'contact@scholastic.com', '678-901-2345', 'USA'),
+(7, 'Pearson', 'info@pearson.com', '789-012-3456', 'UK'),
+(8, 'Oxford University Press', 'support@oup.com', '890-123-4567', 'UK'),
+(9, 'Cambridge University Press', 'service@cambridge.com', '901-234-5678', 'UK'),
+(10, 'Springer', 'info@springer.com', '012-345-6789', 'Germany');
+
+-- Insert data into genre
+INSERT INTO genre (genre_id, genre_name, aisle_number) VALUES
+(1, 'Fiction', 5),
+(2, 'Non-Fiction', 6),
+(3, 'Science', 7),
+(4, 'Technology', 8),
+(5, 'History', 9),
+(6, 'Philosophy', 10),
+(7, 'Biography', 11),
+(8, 'Fantasy', 12),
+(9, 'Mystery', 13),
+(10, 'Romance', 14);
+
+-- Insert data into book
+INSERT INTO book (book_id, title, author, description, price, publication_date, publisher_id, genre_id) VALUES
+(1, 'The Great Gatsby', 'F. Scott Fitzgerald', 'A novel set in the 1920s.', 10.99, '1925-04-10', 1, 1),
+(2, '1984', 'George Orwell', 'Dystopian social science fiction.', 9.99, '1949-06-08', 2, 2),
+(3, 'Brief History of Time', 'Stephen Hawking', 'A book on cosmology.', 12.99, '1988-03-01', 3, 3),
+(4, 'The Art of Computer Programming', 'Donald Knuth', 'A book on algorithms.', 199.99, '1968-01-01', 4, 4),
+(5, 'Sapiens', 'Yuval Noah Harari', 'A brief history of humankind.', 15.99, '2011-01-01', 5, 5),
+(6, 'The Republic', 'Plato', 'A book on political philosophy.', 8.99, '380-01-01', 6, 6),
+(7, 'The Diary of Anne Frank', 'Anne Frank', 'A diary from WWII.', 7.99, '1947-06-25', 7, 7),
+(8, 'Harry Potter and the Sorcerer''s Stone', 'J.K. Rowling', 'Fantasy novel.', 20.99, '1997-06-26', 8, 8),
+(9, 'The Da Vinci Code', 'Dan Brown', 'A mystery thriller.', 14.99, '2003-03-18', 9, 9),
+(10, 'Pride and Prejudice', 'Jane Austen', 'A classic romance novel.', 11.99, '1813-01-28', 10, 10);
+
+-- Insert data into customer
+INSERT INTO customer (customer_id, first_name, last_name, email, phone_number) VALUES
+(1, 'John', 'Doe', 'john.doe@example.com', '111-222-3333'),
+(2, 'Jane', 'Smith', 'jane.smith@example.com', '222-333-4444'),
+(3, 'Alice', 'Johnson', 'alice.johnson@example.com', '333-444-5555'),
+(4, 'Bob', 'Brown', 'bob.brown@example.com', '444-555-6666'),
+(5, 'Charlie', 'Davis', 'charlie.davis@example.com', '555-666-7777'),
+(6, 'David', 'Evans', 'david.evans@example.com', '666-777-8888'),
+(7, 'Emma', 'Wilson', 'emma.wilson@example.com', '777-888-9999'),
+(8, 'Fiona', 'White', 'fiona.white@example.com', '888-999-0000'),
+(9, 'George', 'Harris', 'george.harris@example.com', '999-000-1111'),
+(10, 'Hannah', 'Martin', 'hannah.martin@example.com', '000-111-2222');
+
+-- Insert data into employee
+INSERT INTO employee (employee_id, first_name, last_name, email) VALUES
+(1, 'Michael', 'Scott', 'michael.scott@dundermifflin.com'),
+(2, 'Jim', 'Halpert', 'jim.halpert@dundermifflin.com'),
+(3, 'Pam', 'Beesly', 'pam.beesly@dundermifflin.com'),
+(4, 'Dwight', 'Schrute', 'dwight.schrute@dundermifflin.com'),
+(5, 'Angela', 'Martin', 'angela.martin@dundermifflin.com'),
+(6, 'Kevin', 'Malone', 'kevin.malone@dundermifflin.com'),
+(7, 'Stanley', 'Hudson', 'stanley.hudson@dundermifflin.com'),
+(8, 'Oscar', 'Martinez', 'oscar.martinez@dundermifflin.com'),
+(9, 'Toby', 'Flenderson', 'toby.flenderson@dundermifflin.com'),
+(10, 'Ryan', 'Howard', 'ryan.howard@dundermifflin.com');
