@@ -1,9 +1,9 @@
 CREATE TABLE Publisher (
     publisher_id INT PRIMARY KEY,
-    publisher_name VARCHAR(100),
-    contact_email VARCHAR(100),
+    publisher_name VARCHAR(45),
+    contact_email VARCHAR(45),
     phone_number VARCHAR(20),
-    country VARCHAR(50)
+    country VARCHAR(45)
 );
 
 CREATE TABLE Book (
@@ -21,14 +21,14 @@ CREATE TABLE Book (
 
 CREATE TABLE Genre (
     genre_id INT PRIMARY KEY,
-    genre_name VARCHAR(50)
+    genre_name VARCHAR(45)
+    aisle_number INT 
 );
 
 CREATE TABLE Inventory (
     inventory_id INT PRIMARY KEY,
     quantity_in_stock INT,
     restock_quantity INT,
-    restock_date DATE,
     book_id INT,
     FOREIGN KEY (book_id) REFERENCES Book(book_id)
 );
@@ -37,7 +37,7 @@ CREATE TABLE Sales_Transaction (
     sales_trans_id INT PRIMARY KEY,
     total_price DECIMAL(6,2),
     transaction_date DATE,
-    payment_type VARCHAR(50),
+    payment_type VARCHAR(45),
     employee_id INT,
     customer_id INT,
     FOREIGN KEY (employee_id) REFERENCES Employee(employee_id),
@@ -56,15 +56,15 @@ CREATE TABLE Sales_Transaction_Details (
 
 CREATE TABLE Employee (
     employee_id INT PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
+    first_name VARCHAR(45),
+    last_name VARCHAR(45),
     email VARCHAR(100)
 );
 
 CREATE TABLE Customer (
     customer_id INT PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
+    first_name VARCHAR(45),
+    last_name VARCHAR(45),
     email VARCHAR(100),
     phone_number VARCHAR(20)
 );
