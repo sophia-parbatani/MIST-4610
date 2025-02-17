@@ -61,3 +61,16 @@ INSERT INTO employee (employee_id, first_name, last_name, email) VALUES
 (8, 'Oscar', 'Martinez', 'oscar.martinez@dundermifflin.com'),
 (9, 'Toby', 'Flenderson', 'toby.flenderson@dundermifflin.com'),
 (10, 'Ryan', 'Howard', 'ryan.howard@dundermifflin.com');
+
+INSERT INTO book_sales_description (trans_detail_id, quantity_sold, unit_price, sales_trans_id, book_id)
+VALUES
+(1, 2, 15.99, 101, 1), 
+(2, 1, 9.99, 102, 2),   
+(3, 3, 12.50, 103, 3), 
+(4, 5, 8.99, 104, 4),   
+(5, 2, 19.99, 105, 5), 
+(6, 1, 14.99, 106, 6),  
+(7, 4, 7.99, 107, 7),   
+(8, 2, 10.99, 108, 8),  
+(9, 3, 22.99, 109, 9),  
+(10, 6, 5.99, 110, 10); 
