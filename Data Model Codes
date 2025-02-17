@@ -44,7 +44,7 @@ CREATE TABLE Sales_Transaction (
     FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
 );
 
-CREATE TABLE Sales_Transaction_Details (
+CREATE TABLE Book_Sales_Description (
     trans_detail_id INT PRIMARY KEY,
     quantity_sold INT,
     unit_price DECIMAL(6,2),
