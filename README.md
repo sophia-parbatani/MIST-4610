@@ -9,8 +9,7 @@
 
 
    # Database Description
-   Our Bookstore Database Management System helps to streamling bookstore operations. Management of a bookstore requires careful tracking of many different records. This includes, but is not limited to, inventory, organization, sales, and even employee information. Mantaining an efficient and easily accesible storage of this information helps the bookstore to gain important insight on the outcomes of their investments. With this database, management can keep accurate records and maximize their output by focusing on the biggest drivers of profit.
-
+Our Bookstore Database Management System helps to streamling bookstore operations. Management of a bookstore requires careful tracking of many different records. This includes, but is not limited to, inventory, organization, sales, and even employee information. Mantaining an efficient and easily accesible storage of this information helps the bookstore to gain important insight on the outcomes of their investments. With this database, management can keep accurate records of vital information, leading to informed decisions and more efficient operations. 
    # Data Model
 
 
