@@ -6,7 +6,7 @@
 2. Wright, Ian @ianw1103
 3. Pais, Ari @ari-pais
 4. Harees, Reya @reyaharees
-
+5. Nwachukwu, Esom @esom-n
 
 # Database Description
 Our Bookstore Database Management System helps to streamling bookstore operations. Management of a bookstore requires careful tracking of many different records. This includes, but is not limited to, inventory, organization, sales, and even employee information. Mantaining an efficient and easily accesible storage of this information helps the bookstore to gain important insight on the outcomes of their investments. With this database, management can keep accurate records of vital information, leading to informed decisions and more efficient operations. 
