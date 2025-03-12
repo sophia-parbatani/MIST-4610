@@ -5,7 +5,7 @@
 1. Parbatani, Sophia @sophia-parbatani
 2. Wright, Ian @ianw1103
 3. Pais, Ari @ari-pais
-4. Harees, Reya @reya-harees
+4. Harees, Reya @reyaharees
 
 
    # Database Description
