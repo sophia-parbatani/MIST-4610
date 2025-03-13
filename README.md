@@ -1,5 +1,5 @@
 # MIST-4610 Project 1 - Group 6
-# Group Name - A.R.I.E.S BOOKSTORE
+# Database Name - A.R.I.E.S BOOKSTORE
 # Team Members
 1. Parbatani, Sophia @sophia-parbatani
 2. Wright, Ian @ianw1103
