@@ -24,7 +24,7 @@ Our Bookstore Database Management System helps to streamling bookstore operation
 ![Screenshot 2025-03-12 080833](https://github.com/user-attachments/assets/02ea48b1-3bc9-450a-804f-9611f76bbfb5)
 
 # Queries
-1. Query 1 retreives the Book title, quantity in stock, restock quantity, and total stock value (current + restock).
+1. Query 1 retrieves the Book title, quantity in stock, restock quantity, and total stock value (current + restock).
 ![image](https://github.com/user-attachments/assets/124b899f-072c-477e-a82e-1dc8513b73a9)
 
 Functions - 
@@ -40,4 +40,4 @@ This query allows the staff to quickly identify publishers they often do busines
 Friendly contact between store and publisher may help improve/maintain business relations
 
 
-
+3. Query 3 retrieves the total revenue generated for each book title by multiplying the quantity of books sold by the unit price using SUM. 
