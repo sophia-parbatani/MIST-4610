@@ -1,4 +1,4 @@
-# MIST-4610 Project 1 - Group 6
+![image](https://github.com/user-attachments/assets/bed5e45c-b3b0-4eaa-b09e-a26babe6c15a)# MIST-4610 Project 1 - Group 6
 # Database Name - A.R.I.E.S BOOKSTORE
 # Team Members
 1. Parbatani, Sophia @sophia-parbatani
@@ -39,5 +39,25 @@ and Sorts efficiently to prioritize low-stock books,
 This query allows the staff to quickly identify publishers they often do business with and helps keep
 Friendly contact between store and publisher may help improve/maintain business relations
 
+3. Query 3 retrieves the total revenue generated for each book title by multiplying the quantity of books sold by the unit price using SUM.
+![image](https://github.com/user-attachments/assets/5b3db0fe-8968-4cdc-bb98-48164907bbd8)
 
-3. Query 3 retrieves the total revenue generated for each book title by multiplying the quantity of books sold by the unit price using SUM. 
+This query identifies how much revenue each book has generated based on the quantity sold, and it also identifies the books that might have the strongest sales for the book store. 
+
+4. Query 4 retrieves the quantity in stock for each title.
+![image](https://github.com/user-attachments/assets/bbbce089-fbb8-438c-8110-015ee38b44d7)
+
+This query allows staff to keep track specific titles, helps maintain adequate inventory, and helps prevent loss and theft
+
+5. Query 5 retrieves the quantity in stock for each title.
+![image](https://github.com/user-attachments/assets/741002cc-a0cd-4af1-a74d-e1bcf33ed4f9)
+
+This query allows staff to keep track specific titles, helps to maintain adequate inventory, and helps to prevent loss and theft.
+
+8. Query 8 
+
+
+
+
+
+
