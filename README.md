@@ -52,6 +52,8 @@ This query allows staff to keep track specific titles, helps maintain adequate i
 
 5. Query 5 retrieves the quantity in stock for each title.
 
+![image](https://github.com/user-attachments/assets/cbe00bd7-3a04-4d6f-a336-dc62327582f6)
+
 
 This query allows staff to keep track specific titles, helps to maintain adequate inventory, and helps to prevent loss and theft.
 
