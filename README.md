@@ -45,6 +45,7 @@ Friendly contact between store and publisher may help improve/maintain business 
 This query identifies how much revenue each book has generated based on the quantity sold, and it also identifies the books that might have the strongest sales for the book store. 
 
 4. Query 4 retrieves the quantity in stock for each title.
+
 ![image](https://github.com/user-attachments/assets/ea76cbee-bd63-4133-877c-f8829451f394)
 
 This query allows staff to keep track specific titles, helps maintain adequate inventory, and helps prevent loss and theft
