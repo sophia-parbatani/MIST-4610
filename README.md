@@ -34,4 +34,10 @@ Identifies restocking needs for low-stock books,
 Optimizes supply chain by ensuring availability,
 and Sorts efficiently to prioritize low-stock books,
 
+2. Query 2 retrieves the total books sold by each publisher as well as their contact info
+![image](https://github.com/user-attachments/assets/92eb1a84-76ae-4427-8a32-19a77844b1c1)
+This query allows the staff to quickly identify publishers they often do business with and helps keep
+Friendly contact between store and publisher may help improve/maintain business relations
+
+
 
