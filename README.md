@@ -27,6 +27,7 @@ Our Bookstore Database Management System helps to streamling bookstore operation
 # Queries
 1. Query 1 retreives the Book title, quantity in stock, restock quantity, and total stock value (current + restock).
 ![image](https://github.com/user-attachments/assets/124b899f-072c-477e-a82e-1dc8513b73a9)
+
 Functions:
 Tracks inventory to monitor stock levels.
 Identifies restocking needs for low-stock books.
