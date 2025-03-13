@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bed5e45c-b3b0-4eaa-b09e-a26babe6c15a)# MIST-4610 Project 1 - Group 6
+<img width="746" alt="image" src="https://github.com/user-attachments/assets/c78a12a3-ac4f-41c7-9f41-b57ecb63dedf" />![image](https://github.com/user-attachments/assets/bed5e45c-b3b0-4eaa-b09e-a26babe6c15a)# MIST-4610 Project 1 - Group 6
 # Database Name - A.R.I.E.S BOOKSTORE
 # Team Members
 1. Parbatani, Sophia @sophia-parbatani
@@ -58,6 +58,19 @@ This query allows staff to keep track specific titles, helps to maintain adequat
 <img width="369" alt="image" src="https://github.com/user-attachments/assets/d77e2398-1d93-4424-acf4-7442c52a4005" />
 
 This query allows bookstore staff to identify top-selling publishers, helping with inventory decisions, supplier negotiations, and restocking popular books.
+
+9. Query 9 retrieves all books that belong to a specific genre, helping bookstore managers see the available titles.
+<img width="323" alt="image" src="https://github.com/user-attachments/assets/2bd32241-7091-483a-b59c-690c43882f6f" />
+
+This query helps managers check inventory for a particular genre. It's also useful for recommending books to customers, and ensures all books under the selected genre are displayed.
+
+10. Query 10 retrieves the contact information to all employees as well as employee id.
+<img width="237" alt="image" src="https://github.com/user-attachments/assets/d7d0a532-a168-405b-ac5b-19a5d3483f8a" />
+
+This query help bookstore staff be able to quickly identify employee contact info, and allows management to distribute information through mass emails or personal messages with efficiency. 
+
+
+
 
 
 
