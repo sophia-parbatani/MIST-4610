@@ -1,6 +1,6 @@
 <img width="275" alt="image" src="https://github.com/user-attachments/assets/045ac5df-7987-4eff-baed-2e2ecbf9cf3e" />
 
-MIST 4610- Project 1 - Group 6
+# MIST 4610- Project 1 - Group 6
 # Database Name - A.R.I.E.S BOOKSTORE
 # Team Members
 1. Parbatani, Sophia @sophia-parbatani
