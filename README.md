@@ -54,7 +54,11 @@ This query allows staff to keep track specific titles, helps maintain adequate i
 
 ![image](https://github.com/user-attachments/assets/cbe00bd7-3a04-4d6f-a336-dc62327582f6)
 
+6. Query 6
 
+7. Query 7
+
+   
 This query allows staff to keep track specific titles, helps to maintain adequate inventory, and helps to prevent loss and theft.
 
 8. Query 8 retrieves a list of publishers along with their contact emails and the total number of books they have sold, ranked in descending order of sales.
