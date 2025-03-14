@@ -1,4 +1,4 @@
-Project 1 - Group 6
+![image](https://github.com/user-attachments/assets/8246c58d-e620-46ce-91a8-4936faa43d21)Project 1 - Group 6
 # Database Name - A.R.I.E.S BOOKSTORE
 # Team Members
 1. Parbatani, Sophia @sophia-parbatani
@@ -54,7 +54,12 @@ This query allows staff to keep track specific titles, helps maintain adequate i
 
 ![image](https://github.com/user-attachments/assets/cbe00bd7-3a04-4d6f-a336-dc62327582f6)
 
-6. Query 6
+6. Query 6 The query retrieves the titles and prices of books that have a price greater than 5 and were published before January 1, 2000
+   
+![image](https://github.com/user-attachments/assets/707d9e29-4a0c-4cde-8d61-bfe5dfe31351)
+
+This query helps bookstores and libraries determine which older books are still valuable, in demand, and worth restocking. It can also be useful for pricing decisions, such as determining if older books should be discounted or promoted.
+
 
 7. Query 7
 
