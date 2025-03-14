@@ -93,10 +93,11 @@ This query helps managers check inventory for a particular genre. It's also usef
 
 This query help bookstore staff be able to quickly identify employee contact info, and allows management to distribute information through mass emails or personal messages with efficiency. 
 
+# Database information:
 
+![image](https://github.com/user-attachments/assets/6082d593-e421-4da2-9d46-84516670d67c)
 
-
-
+Name of the database is ha_group6
 
 
 
