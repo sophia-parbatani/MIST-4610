@@ -10,6 +10,16 @@
 # Database Description
 Our Bookstore Database Management System helps to streamling bookstore operations. Management of a bookstore requires careful tracking of many different records. This includes, but is not limited to, inventory, organization, sales, and even employee information. Mantaining an efficient and easily accesible storage of this information helps the bookstore to gain important insight on the outcomes of their investments. With this database, management can keep accurate records of vital information, leading to informed decisions and more efficient operations. 
    # Data Model
+This data model represents the operational structure of a bookstore, including books, inventory, sales transactions, employees, customers, genres, and publishers. At the core of the model is the Book entity, which connects to both Genre and Publisher. The Genre entity categorizes books into different types (e.g., Fiction, Non-Fiction, Mystery), while the Publisher entity stores details about the book's publishing company, such as name, contact information, and country.
+
+The Inventory entity is directly linked to the Book entity in a one-to-one relationship, meaning that each book has only one inventory record. This ensures accurate stock tracking by monitoring quantity in stock and restock quantities.
+
+To capture sales transactions, two interconnected tables, Sales Transactions and Book Sales Description, work together. The Sales Transactions entity records overall details of each purchase, including total price, transaction date, payment type, and the employee processing the sale. The Book Sales Description entity forms a many-to-many relationship between Sales Transactions and Books, allowing multiple books to be associated with a single sale while also enabling tracking of which books were sold in each transaction.
+
+The Customer entity has a one-to-many relationship with Sales Transactions, meaning that a single customer can make multiple purchases over time, but each sales transaction must be linked to one specific customer. This connection is valuable for tracking customer purchasing behavior and supporting loyalty programs.
+
+Similarly, the Employee entity has a one-to-many relationship with Sales Transactions, meaning that an employee can handle multiple sales, but each sales transaction is processed by only one employee. This relationship allows the bookstore to analyze employee performance based on sales activity. 
+
 ![image](https://github.com/user-attachments/assets/7692d766-9c74-4cba-b3d1-84dfcddb2af6)
 
 
