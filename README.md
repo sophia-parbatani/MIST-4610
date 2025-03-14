@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d6feaa7c-6f82-4be6-9c24-45fbbe04a092)![image](https://github.com/user-attachments/assets/8246c58d-e620-46ce-91a8-4936faa43d21)Project 1 - Group 6
+Project 1 - Group 6
 # Database Name - A.R.I.E.S BOOKSTORE
 # Team Members
 1. Parbatani, Sophia @sophia-parbatani
