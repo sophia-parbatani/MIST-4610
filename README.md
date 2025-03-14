@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8246c58d-e620-46ce-91a8-4936faa43d21)Project 1 - Group 6
+![image](https://github.com/user-attachments/assets/d6feaa7c-6f82-4be6-9c24-45fbbe04a092)![image](https://github.com/user-attachments/assets/8246c58d-e620-46ce-91a8-4936faa43d21)Project 1 - Group 6
 # Database Name - A.R.I.E.S BOOKSTORE
 # Team Members
 1. Parbatani, Sophia @sophia-parbatani
@@ -60,11 +60,11 @@ This query allows staff to keep track specific titles, helps maintain adequate i
 
 This query helps bookstores and libraries determine which older books are still valuable, in demand, and worth restocking. It can also be useful for pricing decisions, such as determining if older books should be discounted or promoted.
 
+7. Query 7 This Query retrieves the title name and corresponding author of a book in alphabetical order 
 
-7. Query 7
+![image](https://github.com/user-attachments/assets/5782525c-b5e1-479e-b076-c748cb2f7aea)
 
-   
-This query allows staff to keep track specific titles, helps to maintain adequate inventory, and helps to prevent loss and theft.
+This query helps employees/customers efficiently locate books and aids management of inventory and representation of each author.
 
 8. Query 8 retrieves a list of publishers along with their contact emails and the total number of books they have sold, ranked in descending order of sales.
 <img width="369" alt="image" src="https://github.com/user-attachments/assets/d77e2398-1d93-4424-acf4-7442c52a4005" />
